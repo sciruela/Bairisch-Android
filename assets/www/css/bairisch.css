@@ -1,0 +1,61 @@
+.vowel {
+        color:blue;
+        }
+.explication {
+        margin-right: 10px !important; color:green; margin-left: 10px !important;
+        }
+.example { 
+        color:red;
+        }
+.mdh {
+    color:green;  display: inline-block; width:40px; margin-right: 20px; margin-left: 20px;
+    }
+
+.bairisch {
+        color:red; display: inline-block; width:120px; margin-left: 10px; margin-right: 10px;
+        }
+.laut {
+    color:black; display: inline-block; width:40px;margin-right: 10px;
+    }
+.englisch {
+    color:black; display: inline-block; width:40px;margin-left: 10px;     }
+.neu{
+    color:blue; display: inline-block; width:120px; margin-left: 10px; margin-right: 10px; 
+}
+.column{
+    display: inline-block; width:120px; margin-left: 10px; margin-right: 10px; 
+} 
+.bairisch{
+    color:red; display: inline-block; width:120px; margin-left: 10px; margin-right: 10px; 
+}
+.header{
+    color:blue; display: inline-block; width:120px; margin-left: 10px; margin-right: 10px; 
+}             
+.header2{
+    color:blue; display: inline-block; width:140px; margin-left: 10px; margin-right: 20px; 
+} 
+.splash{
+    display: block;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+div.target{
+    text-align:center;
+}
+@media (min-width: 500px) {
+    html {
+        font-size: 70%;
+    }
+}
+
+@media (min-width: 700px) {
+    html {
+        font-size: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 120%;
+    }
+}

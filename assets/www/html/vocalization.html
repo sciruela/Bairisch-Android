@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+      
+      <link rel="stylesheet" href="css/jquery.mobile-1.3.1.min.css" />
+      <link rel="stylesheet" href="css/bairisch.css" />
+   
+  <title>Vokalisierung</title>
+  
+ </head>
+<body>
+
+<div id="detailsPage" data-role="page" data-add-back-btn="true">
+
+	<div data-role="header" data-position="fixed">
+		<h1>Vokalisierung</h1>
+	</div>
+
+  <div data-role="content"> 
+  <ul data-role="listview" data-filter="true" data-inset="false" data-theme="c" data-dividertheme="a">
+  <li data-role="list-divider">Die r-Vokalisierung</li>
+  <li><p>Am Silbenende wird &sbquo;er&rsquo; &rarr; &sbquo;<font class="example">a</font>&rsquo;: (&auml;hnlich: Standardsprache)</p></li>
+  <li><p>Vater &rarr; <font class="example">Vodda</font></p></li>
+  <li><p>Butter &rarr; <font class="example">Budda</font></p></li>
+  <li><p>verkaufen &rarr; <font class="example">vakaafa / vakaufa</font></p></li>
+<li data-role="list-divider">Nach Vokalen wird oft &bdquo;r&ldquo; &rarr; &bdquo;a&ldquo;:</li>
+	<li><p>Parlament &rarr; <font class="example">Baalament</font></p></li> 
+	<li><p>Berg &rarr; <font class="example">Beag</font></p></li>
+
+<li data-role="list-divider">Bei der Schreibung bleibt die r-Vokalisierung oft unber&uuml;cksichtigt &rarr; &auml;hnlich Standardsprache</li>
+	<li><p>durch statt <font class="example">duach</font></p></li>
+	<li><p>Wort statt <font class="example">Woad</font></p></li>
+    <li data-role="list-divider">Die l-Vokalisierung</li>
+<li><p>Nach Vokalen und Umlauten wird in der Regel &bdquo;l&ldquo; &rarr; &bdquo;i&ldquo;
+<ul>
+	<li><p>Soldat &rarr; <font class="example">Soidad</font></p></li>
+	<li><p>kalt &rarr; <font class="example">koit</font></p></li>
+	<li><p>Welt &rarr; <font class="example">W&auml;it</font></p></li>
+	<li><p>holen &rarr; <font class="example">hoin</font></p></li>
+</ul>
+</p></li>
+<li><p>
+&bdquo;l&ldquo; nach &bdquo;i&ldquo;/ &bdquo;ie&ldquo; / &bdquo;&uuml;&ldquo; / &bdquo;&uuml;h&ldquo; &rarr; &bdquo;ui&ldquo; bzw. &bdquo;&aumli&ldquo;
+<ul>
+	<li><p>M&uuml;hle &rarr; <font class="example">Mui</font> bzw. <font class="example">M&auml;i</font></p></li>
+	<li><p>viel &rarr; <font class="example">vui</font> bzw. <font class="example">v&auml;i</font></p></li>
+	<li><p>Ilz  &rarr; <font class="example">Uiz</font> bzw. <font class="example">&Auml;iz</font></p></li>
+</ul>    
+</p></li></ul></div></div>
+<script src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).bind("mobileinit", function () {
+            $.mobile.page.prototype.options.addBackBtn = true;
+        });
+    </script>
+    <script src="js/jquery.mobile-1.3.1.min.js"></script>
+    </body>
+    </html>
